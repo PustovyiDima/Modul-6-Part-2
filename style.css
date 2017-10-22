@@ -1,0 +1,151 @@
+
+body{
+	width: 700px;
+}
+/* Test 1 */
+.table_1{
+	width: 100%;
+	border: 1px solid #000;
+	border-collapse: collapse;
+	font:  15px "Arial" ;
+	text-align: center;
+}
+.th_1{
+	font-weight: 900;
+}
+.table_1 th{
+	width: 45px;
+	height: 35px;
+    border: 1px solid #000;
+}
+.table_1 td{
+	width: 25px;
+	height: 35px;
+	font-weight: 600;
+    border: 1px solid #000;
+}
+.td_1{
+	font-weight: 900;
+	text-align: left;
+}
+/* Test 2 */
+.table_2{
+	width: 100%;
+	font:  15px "Arial" ;
+	text-align: center;
+	border-collapse: collapse;
+	height: 40px;
+}
+
+.tr_2{
+	font-weight: bolder; 
+	padding: 5px;
+	border-bottom: 1px solid #8E8E8E;
+}
+/* Test 3 */
+.table_3{
+	width: 100%;
+	font:  15px "Arial" ;
+	text-align: center;
+	border-collapse: collapse;
+}
+.table_3 tr{
+	border-bottom: 1px solid #8E8E8E;
+}
+/* Test 4 */
+.wrapper{
+	width: 800px;
+	height: 450px;
+	padding-top: 55px;
+	background-color: #E8E2E2;
+	border-radius: 20px;
+	box-shadow: 0px 0px 41px 7px rgba(193,186,186,1);
+}
+.table_4{
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;	
+	font:  15px "Arial" ;
+	text-align: center;
+	border-collapse: collapse;
+	position: relative;
+}
+.table_4 td{
+	border-top: 1px solid #A5A1A1;
+}
+.table_4 td,th{
+	max-width: 250px;
+	padding: 10px;
+}
+.red_td{
+	color: red;
+	text-align: left;
+}
+
+.buttons{
+	width: 130px;
+	align-items: center;
+}
+.b_1{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	border: none;
+}
+.b_2{
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	font: 18px bolder;
+	text-align: center;
+	color: white;
+	border: none;
+}
+.b_3{
+	width: 60px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	border: none;
+}
+.href{
+	width: 100%;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 60px;
+	color: red;
+	font-size: 25px;
+	font-weight: bolder;
+	text-decoration: none;
+	text-align: center;
+}
+.last_text{
+	width: 270px;
+	font: 22px "Times new roman";
+	text-align: right;
+	position: relative;
+	left: 490px;
+	top: 30px;
+}
+.bolder{
+	font-weight: bolder;
+}
+.smal_grey_text{
+	font-size: 16px;
+	color: grey;
+}
+.close_button{
+	width: 22px;
+	height: 22px;
+	background-color: black;
+	color: white;
+	border:3px solid white;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	bottom: 68px;
+	left:784px;
+}
